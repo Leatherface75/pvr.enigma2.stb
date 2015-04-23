@@ -1,0 +1,21 @@
+Source: kodi-pvr-enigma2-stb
+Priority: extra
+Maintainer: Cristiano A. Silva <h.udo@kodi.tv>
+Build-Depends: debhelper (>= 9.0.0), cmake, libtinyxml-dev, kodi-pvr-dev,
+               libkodiplatform-dev, kodi-addon-dev
+Standards-Version: 3.9.4
+Section: libs
+
+Package: kodi-pvr-enigma2-stb
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Enigma2 STB PVR for Kodi
+ Enigma2 STB PVR for Kodi
+
+Package: kodi-pvr-enigma2-stb-dbg
+Section: debug
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: debug symbols for Enigma2 STB PVR for Kodi
+ debug symbols for Enigma2 STB PVR for Kodi
